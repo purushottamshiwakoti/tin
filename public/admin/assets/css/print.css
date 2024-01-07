@@ -1,0 +1,18 @@
+/*.navbar,.pcoded-navbar,.pcoded-content .page-header,.card-header-right{display: none!important;}*/
+/*.pcoded-content{margin-left: 0!important;}*/
+/*.pcoded-content .card .card-header .logo{margin-bottom: 7mm!important;}*/
+/*.table-responsive{overflow-x: unset!important;}*/
+/*!*div.printing {margin-left: -200px!important;}*!*/
+/*!*@page {*!*/
+    /*!*size: A4 landscape;*!*/
+/*!*}*!*/
+/*!*@media print { div.printing { transform: scale(.7); } }*!*/
+/*.table td, .table th{font-size: 10pt!important;}*/
+
+@page{
+    size: auto;
+    margin:0mm!important;
+}
+.navbar,.pcoded-navbar,.pcoded-content .page-header,.card-header-right{display: none!important;}
+.pcoded-content{margin-left: 0!important;}.pcoded-content .card .card-header .logo{margin-bottom: 7mm!important;}
+.table-responsive{overflow-x: unset!important;}.table td, .table th{font-size: 10pt!important;}
